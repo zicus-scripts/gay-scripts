@@ -4,6 +4,8 @@ elseif game.PlaceId == 13230182363 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/dd39d705a3721922aa908b746d8e4973.lua"))()
 elseif game.PlaceId == 8425128940 then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0419fc4eea69f528a393d08590492137.lua"))()
+elseif game.PlaceId == 12355337193 then
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c436a8cf338d4c587438e7a407ab5ca4.lua"))()
 else
     game.Players.LocalPlayer:Kick("Invalid Game! View games @ https://discord.gg/NHykD5JAPq")
 end
